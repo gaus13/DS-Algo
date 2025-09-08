@@ -1,0 +1,19 @@
+Sorting Algorithms - For DSA Interview Preparation
+--------------------------------------------------
+
+Algorithm        | Best For                            | Time Complexity (Best / Average / Worst)
+-------------------------------------------------------------------------------------------
+Bubble Sort      | Understanding basic sorting concepts| O(n)       / O(n²)       / O(n²)
+Selection Sort   | Minimizing swaps                    | O(n²)      / O(n²)       / O(n²)
+Insertion Sort   | Nearly sorted arrays                | O(n)       / O(n²)       / O(n²)
+Merge Sort       | Stable, Divide & Conquer            | O(n log n) / O(n log n)  / O(n log n)
+Quick Sort       | Fastest average-case, in-place      | O(n log n) / O(n log n)  / O(n²)
+Heap Sort        | Priority queue-based tasks          | O(n log n) / O(n log n)  / O(n log n)
+Counting Sort    | Known small range of integers       | O(n + k)   / O(n + k)    / O(n + k)
+Radix Sort       | Sorting large numbers (integers)    | O(nk)      / O(nk)       / O(nk)
+Bucket Sort      | Uniformly distributed input         | O(n + k)   / O(n + k)    / O(n + k)
+
+Notes:
+- 'n' = number of elements
+- 'k' = range of input (or number of digits for radix)
+- Know their space complexities, stability, and real-world usage too.
